@@ -1,0 +1,107 @@
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #092327;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+#icono{
+	width: 200px;
+	padding: 0px;
+
+}
+.navegacion{
+	list-style: none;
+	background-color: #116E8A;
+	padding: 50px;
+}
+.navegacion li a{
+	padding: 15px;
+	display: block;
+	color: white;
+	margin-left: 150px;
+}
+.navegacion li{
+	display: inline-block;
+	text-align: center;
+}
+.navegacion li a:hover{
+	background: black;
+}
+#wep{
+	margin-top: -20px;
+	position: relative;
+	background: #242E6F;
+}
+#wep .wep-nav{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	color: #fff;
+}
+#wep a{
+	display: block;
+	width: 100px;
+	color: #fff;
+	text-decoration: none;
+	padding: 7px;
+	margin-top: 10px;
+	border: 3px solid #fff;
+	text-align: center;
+}
+
+.img{
+	width: 200px;
+	height: 200px;
+	margin-left: 150px;
+
+}
+#imagen{
+	width: 300px;
+	height: 300px;
+}
+#entrada{
+	text-align: center;
+	background: black;
+	color: white;
+
+}
+#entrada h2{
+	margin-left: -70px;
+}
+#nav-pro{
+	background: #00FFAE
+}
+#salida{
+	list-style: none;
+	background-color: #020329;
+	padding: 50px;
+	color: white;
+
+}
+#salida li{
+	display: inline-block;
+	text-align: center;
+	margin-left: 150px;
+	padding: 15px;
+}
